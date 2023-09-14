@@ -12,9 +12,9 @@ const PreviousProgramme = () => {
                 <h3 className="header">our previous programmes</h3>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
-                <Programme theme="His Glory" text="Isaiah 60 vs 1&2" startDate="Fri, 16th Sept 2023" endDate="Sun, 18th Sept 2023" time="21:00pm" image="../../../public/img/programme.jpg" />
-                <Programme theme="Ask and it shall be Given" text="Matthew 7 vs 7" startDate="Fri, 16th Sept 2023" endDate="Sun, 18th Sept 2023" time="21:00pm" image="../../../public/img/programme.jpg" />
-                <Programme theme="My Refuge" text="Psalm 90 vs 1" startDate="Fri, 16th Sept 2023" endDate="Sun, 18th Sept 2023" time="21:00pm" image="../../../public/img/programme.jpg" />
+                <Programme theme="His Glory" text="Isaiah 60 vs 1&2" startDate="Fri, 16th Sept 2023" endDate="Sun, 18th Sept 2023" time="21:00pm" image="/img/programme.jpg" />
+                <Programme theme="Ask and it shall be Given" text="Matthew 7 vs 7" startDate="Fri, 16th Sept 2023" endDate="Sun, 18th Sept 2023" time="21:00pm" image="/img/programme.jpg" />
+                <Programme theme="My Refuge" text="Psalm 90 vs 1" startDate="Fri, 16th Sept 2023" endDate="Sun, 18th Sept 2023" time="21:00pm" image="/img/programme.jpg" />
             </div>
             <div className="mt-8 flex justify-center lg:text-base text-sm">
                 <Link to="/programmes">
